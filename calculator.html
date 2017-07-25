@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Calcutor</title>
+  <link rel="stylesheet" href="calculator.css">
+  <link href="https://fonts.googleapis.com/css?family=Metal+Mania" rel="stylesheet">
+</head>
+
+<body>
+  <section class="pageTitle">
+    <img class="headerImg" src="http://nerdist.com/wp-content/uploads/2016/11/LEGO-Death-Metal-Batman.jpg" alt="metalbatman">
+    <h1>Metal Calculator </h1>
+    <img class="headerImg" src="http://nerdist.com/wp-content/uploads/2016/11/LEGO-Death-Metal-Batman.jpg" alt="metalbatman">
+  </section>
+  <section class="calc">
+    <!--top line-->
+    <button class="clearVal" type="button" name="clear" onclick="clearButton()">☠</button>
+    <input type="text" id="result" value=" " onclick="">
+    <!--second line-->
+    <button type="button" onclick="displayVal('7')" value="7">7</button>
+    <button type="button" onclick="displayVal('8')" value="8">8</button>
+    <button type="button" onclick="displayVal('9')" value="9">9</button>
+    <button class="opButton" onclick="displayVal('/')" type="button" name="divide">/</button>
+    <!--third line-->
+    <button type="button" onclick="displayVal('4')" value="4">4</button>
+    <button type="button" onclick="displayVal('5')" value="5">5</button>
+    <button type="button" onclick="displayVal('6')" value="6">6</button>
+    <button class="opButton" onclick="displayVal('*')" type="button" name="multiply">x</button>
+    <!--fourth line-->
+    <button type="button" onclick="displayVal('1')" value="1">1</button>
+    <button type="button" onclick="displayVal('2')" value="2">2</button>
+    <button type="button" onclick="displayVal('3')" value="3">3</button>
+    <button class="opButton" onclick="displayVal('-')" type="button" name="subtract">-</button>
+    <!--bottom line-->
+    <button type="button" onclick="displayVal('0')" value="0">0</button>
+    <button type="button" onclick="displayVal('.')" name="period">.</button>
+    <button class="opButton" type="button" onclick="displayVal()" name="=">=</button>
+    <button class="opButton" onclick="totalVal()" type="button" name="plus">+</button>
+  </section>
+
+  <script type="text/javascript" src="calculator.js"></script>
+</body>
+
+</html>

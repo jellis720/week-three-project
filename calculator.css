@@ -1,0 +1,80 @@
+body{
+  background-image: url(http://avante.biz/wp-content/uploads/Metal-Music-Backgrounds/Metal-Music-Backgrounds-036.jpg);
+  margin: 0 auto;
+  font-family: 'Metal Mania', cursive;
+}
+
+.pageTitle{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerImg{
+  width:100px;
+  height: 120px;
+  -webkit-animation:spin 4s linear infinite;
+      -moz-animation:spin 4s linear infinite;
+      animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+h1{
+  margin: 0;
+  flex-wrap: wrap;
+  font-size: 72px;
+  color: #b6b6b6;
+  text-shadow: 2px 2px darkred;
+}
+
+.calc{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 10% 25%;
+  justify-content: center;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/05/a7/7e/05a77e189aa3c4ba9d93c2dd2b2c6f0c.jpg);
+  border:
+}
+
+button{
+  width:25%;
+  height: 100px;
+  font-size: 30px;
+  font-family: 'Metal Mania', cursive;
+  color: silver;
+  text-shadow: 2px 2px darkred;
+  background-color:black;
+}
+
+.opButton{
+  width:25%;
+  height: 100px;
+  font-size: 30px;
+  font-family: 'Metal Mania', cursive;
+  color: silver;
+  text-shadow: 2px 2px darkred;
+  background-color: red;
+}
+
+input{
+  float: right;
+  width:73.4%;
+  font-size: 30px;
+  font-family: 'Metal Mania', cursive;
+  color: silver;
+  text-shadow: 2px 2px darkred;
+  background-color: black;
+
+}
+
+
+.player{
+  display: flex;
+  justify-content: center;
+}
