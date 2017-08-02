@@ -18,10 +18,10 @@ function displayVal(inputNum){
   }
 }
 
-// function totalVal(){
-//   if (onScreen != ''){
-//     var total = eval(onScreen);
-//     onScreen = total.toString();
-//     result.value = total;
-//   }
-// }
+function totalVal(){
+  if (onScreen != ''){
+    var total = eval(onScreen);
+    onScreen = total.toString();
+    result.value = total;
+  }
+}
